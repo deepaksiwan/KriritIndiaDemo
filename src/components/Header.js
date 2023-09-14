@@ -173,25 +173,24 @@ export const Header = () => {
               Overview
             </NavLink>
 
-            <NavLink to="/CreateCar" className={classes.mob__nav}>
+            <NavLink className={classes.mob__nav} onClick={handleClose} to="/">
               Career
             </NavLink>
             <NavLink className={classes.mob__nav} onClick={handleClose} to="/">
               Product
             </NavLink>
 
-            <NavLink to="/CreateCar" className={classes.mob__nav}>
-              Solution
+            <NavLink className={classes.mob__nav} onClick={handleClose} to="/">
+              solution
             </NavLink>
             <NavLink className={classes.mob__nav} onClick={handleClose} to="/">
               Management
             </NavLink>
-
-            <NavLink to="/CreateCar" className={classes.mob__nav}>
+            <NavLink className={classes.mob__nav} onClick={handleClose} to="/">
               Assesment
             </NavLink>
-            
-          </Box>
+
+          </Box> 
         </Dialog>
       
     </Box>
